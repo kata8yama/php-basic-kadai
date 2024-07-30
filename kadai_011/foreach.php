@@ -9,7 +9,7 @@
 <p>
 <?php
 // 連想配列
-$variable_names = ['name' => '玉ねぎ', 'price' => 200, 'gender' => '男性', 'address' => '北海道'];
+$variable_name = ['名前' => '玉ねぎ', '値段' => 200, '産地' => '北海道'];
 //  連想配列＄variable_nameのキーと値をコロン（：）で区切り、要素ごとに改行して出力する
         
 foreach ($variable_name as $key => $value) {
